@@ -1,4 +1,4 @@
-package com.augtsy.designpattern.factorypattern.simple;
+package com.augtsy.pattern.factory.simple;
 
 /**
  * @Description:
