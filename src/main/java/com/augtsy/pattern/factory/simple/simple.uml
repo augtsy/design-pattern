@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.augtsy.pattern.factory.simple.PhoneFactory</OriginalElement>
+  <nodes>
+    <node x="189.75" y="319.0">com.augtsy.pattern.factory.simple.PhoneFactoryTest</node>
+    <node x="157.0" y="105.0">com.augtsy.pattern.factory.simple.HuaWei</node>
+    <node x="151.40625" y="0.0">com.augtsy.pattern.factory.simple.Phone</node>
+    <node x="99.24479166666669" y="212.0">com.augtsy.pattern.factory.simple.PhoneFactory</node>
+    <node x="0.0" y="105.0">com.augtsy.pattern.factory.simple.Iphone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.augtsy.pattern.factory.simple.HuaWei" target="com.augtsy.pattern.factory.simple.Phone" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="225.5" y="80.0" />
+      <point x="219.906" y="80.0" />
+      <point x="-2.499999999940883E-4" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.simple.Iphone" target="com.augtsy.pattern.factory.simple.Phone" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="68.5" y="80.0" />
+      <point x="219.906" y="80.0" />
+      <point x="-2.499999999940883E-4" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.simple.PhoneFactory" target="com.augtsy.pattern.factory.simple.Phone" relationship="DEPENDENCY">
+      <point x="2.08333333318933E-4" y="27.5" />
+      <point x="211.245" y="293.0" />
+      <point x="340.745" y="293.0" />
+      <point x="340.745" y="27.5" />
+      <point x="68.49975" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.simple.PhoneFactory" target="com.augtsy.pattern.factory.simple.Iphone" relationship="CREATE">
+      <point x="-104.5" y="-27.5" />
+      <point x="38.244791666666686" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.simple.PhoneFactory" target="com.augtsy.pattern.factory.simple.HuaWei" relationship="CREATE">
+      <point x="14.255208333333314" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.simple.PhoneFactoryTest" target="com.augtsy.pattern.factory.simple.Phone" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.5" />
+      <point x="285.25" y="293.0" />
+      <point x="340.745" y="293.0" />
+      <point x="340.745" y="27.5" />
+      <point x="68.49975" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.simple.PhoneFactoryTest" target="com.augtsy.pattern.factory.simple.PhoneFactory" relationship="DEPENDENCY">
+      <point x="-89.005" y="-27.5" />
+      <point x="-14.999791666666681" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="190.5" y="221.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

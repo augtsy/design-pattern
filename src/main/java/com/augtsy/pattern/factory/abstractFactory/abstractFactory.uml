@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.augtsy.pattern.factory.abstractFactory.ComputerHuaWei</OriginalElement>
+  <nodes>
+    <node x="0.0" y="90.0">com.augtsy.pattern.factory.abstractFactory.ComputerApple</node>
+    <node x="534.9537500000001" y="314.0">com.augtsy.pattern.factory.abstractFactory.Test</node>
+    <node x="880.82" y="90.0">com.augtsy.pattern.factory.simple.HuaWei</node>
+    <node x="274.0662500000001" y="0.0">com.augtsy.pattern.factory.abstractFactory.Computer</node>
+    <node x="711.60125" y="207.0">com.augtsy.pattern.factory.abstractFactory.PhoneFactory</node>
+    <node x="703.5662500000001" y="0.0">com.augtsy.pattern.factory.simple.Phone</node>
+    <node x="250.41875000000005" y="207.0">com.augtsy.pattern.factory.abstractFactory.ComputerFactory</node>
+    <node x="486.5662500000001" y="90.0">com.augtsy.pattern.factory.abstractFactory.AbstractFactory</node>
+    <node x="754.82" y="90.0">com.augtsy.pattern.factory.simple.Iphone</node>
+    <node x="195.00000000000006" y="90.0">com.augtsy.pattern.factory.abstractFactory.ComputerHuaWei</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.ComputerFactory" target="com.augtsy.pattern.factory.abstractFactory.AbstractFactory" relationship="GENERALIZATION">
+      <point x="2.4999999993724487E-4" y="-27.5" />
+      <point x="344.419" y="176.0" />
+      <point x="575.566" y="176.0" />
+      <point x="-2.500000000509317E-4" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.simple.Iphone" target="com.augtsy.pattern.factory.simple.Phone" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="807.82" y="60.0" />
+      <point x="754.566" y="60.0" />
+      <point x="-2.500000000509317E-4" y="15.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.ComputerFactory" target="com.augtsy.pattern.factory.simple.Phone" relationship="DEPENDENCY">
+      <point x="94.00024999999994" y="-15.0" />
+      <point x="685.0" y="219.5" />
+      <point x="685.0" y="15.0" />
+      <point x="-51.00025000000005" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.ComputerHuaWei" target="com.augtsy.pattern.factory.abstractFactory.Computer" relationship="REALIZATION">
+      <point x="-5.6843418860808015E-14" y="-27.5" />
+      <point x="289.5" y="60.0" />
+      <point x="339.066" y="60.0" />
+      <point x="-2.500000001077751E-4" y="15.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.AbstractFactory" target="com.augtsy.pattern.factory.simple.Phone" relationship="DEPENDENCY">
+      <point x="88.99974999999995" y="0.0" />
+      <point x="685.0" y="117.5" />
+      <point x="685.0" y="15.0" />
+      <point x="-51.00025000000005" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.ComputerFactory" target="com.augtsy.pattern.factory.abstractFactory.ComputerHuaWei" relationship="CREATE">
+      <point x="-54.91874999999999" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.Test" target="com.augtsy.pattern.factory.abstractFactory.Computer" relationship="DEPENDENCY">
+      <point x="2.4999999982355803E-4" y="-27.5" />
+      <point x="579.454" y="288.0" />
+      <point x="463.0" y="288.0" />
+      <point x="463.0" y="15.0" />
+      <point x="64.99974999999989" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.PhoneFactory" target="com.augtsy.pattern.factory.simple.Iphone" relationship="CREATE">
+      <point x="16.21875" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.ComputerApple" target="com.augtsy.pattern.factory.abstractFactory.Computer" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="87.5" y="60.0" />
+      <point x="339.066" y="60.0" />
+      <point x="-2.500000001077751E-4" y="15.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.Test" target="com.augtsy.pattern.factory.abstractFactory.PhoneFactory" relationship="CREATE">
+      <point x="44.5" y="15.0" />
+      <point x="806.601" y="356.5" />
+      <point x="14.999749999999949" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.PhoneFactory" target="com.augtsy.pattern.factory.simple.HuaWei" relationship="CREATE">
+      <point x="80.0" y="0.0" />
+      <point x="936.32" y="234.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.ComputerFactory" target="com.augtsy.pattern.factory.abstractFactory.Computer" relationship="DEPENDENCY">
+      <point x="94.00024999999994" y="0.0" />
+      <point x="463.0" y="234.5" />
+      <point x="463.0" y="15.0" />
+      <point x="64.99974999999989" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.ComputerFactory" target="com.augtsy.pattern.factory.abstractFactory.ComputerApple" relationship="CREATE">
+      <point x="-94.0" y="0.0" />
+      <point x="87.5" y="234.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.Test" target="com.augtsy.pattern.factory.simple.Phone" relationship="DEPENDENCY">
+      <point x="44.500249999999824" y="0.0" />
+      <point x="685.0" y="341.5" />
+      <point x="685.0" y="15.0" />
+      <point x="-51.00025000000005" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.simple.HuaWei" target="com.augtsy.pattern.factory.simple.Phone" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="936.32" y="60.0" />
+      <point x="754.566" y="60.0" />
+      <point x="-2.500000000509317E-4" y="15.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.PhoneFactory" target="com.augtsy.pattern.factory.abstractFactory.AbstractFactory" relationship="GENERALIZATION">
+      <point x="-2.500000000509317E-4" y="-27.5" />
+      <point x="791.601" y="176.0" />
+      <point x="575.566" y="176.0" />
+      <point x="-2.500000000509317E-4" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.PhoneFactory" target="com.augtsy.pattern.factory.abstractFactory.Computer" relationship="DEPENDENCY">
+      <point x="-2.500000000509317E-4" y="27.5" />
+      <point x="791.601" y="288.0" />
+      <point x="463.0" y="288.0" />
+      <point x="463.0" y="15.0" />
+      <point x="64.99974999999989" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.Test" target="com.augtsy.pattern.factory.abstractFactory.AbstractFactory" relationship="DEPENDENCY">
+      <point x="15.000249999999824" y="-27.5" />
+      <point x="18.88774999999987" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.AbstractFactory" target="com.augtsy.pattern.factory.abstractFactory.Computer" relationship="DEPENDENCY">
+      <point x="-89.00025000000011" y="0.0" />
+      <point x="463.0" y="117.5" />
+      <point x="463.0" y="15.0" />
+      <point x="64.99974999999989" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.PhoneFactory" target="com.augtsy.pattern.factory.simple.Phone" relationship="DEPENDENCY">
+      <point x="-80.00025000000005" y="0.0" />
+      <point x="685.0" y="234.5" />
+      <point x="685.0" y="15.0" />
+      <point x="-51.00025000000005" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.factory.abstractFactory.Test" target="com.augtsy.pattern.factory.abstractFactory.ComputerFactory" relationship="CREATE">
+      <point x="-44.5" y="0.0" />
+      <point x="344.41875000000005" y="341.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0958152181572236" showDependencies="true" x="475.78381158831723" y="192.07429425234642" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
