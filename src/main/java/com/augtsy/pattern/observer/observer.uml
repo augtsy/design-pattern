@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.augtsy.pattern.observer.ConcreteSubject</OriginalElement>
+  <nodes>
+    <node x="358.9858974358974" y="409.0">com.augtsy.pattern.observer.ObserverTest</node>
+    <node x="514.5" y="105.0">com.augtsy.pattern.observer.Subject</node>
+    <node x="449.00000000000006" y="279.0">com.augtsy.pattern.observer.ConcreteSubject</node>
+    <node x="0.0" y="127.0">com.augtsy.pattern.observer.ConcreteObserver</node>
+    <node x="222.00000000000006" y="127.0">com.augtsy.pattern.observer.Concrete2Observer</node>
+    <node x="401.70705128205134" y="0.0">com.augtsy.pattern.observer.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.augtsy.pattern.observer.ConcreteSubject" target="com.augtsy.pattern.observer.Observer" relationship="DEPENDENCY">
+      <point x="-83.76538461538462" y="-39.0" />
+      <point x="-27.472435897435957" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.ConcreteSubject" target="com.augtsy.pattern.observer.Subject" relationship="GENERALIZATION">
+      <point x="65.5" y="-39.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.ObserverTest" target="com.augtsy.pattern.observer.Subject" relationship="DEPENDENCY">
+      <point x="65.60000000000002" y="-27.5" />
+      <point x="506.58589743589744" y="388.0" />
+      <point x="679.5" y="388.0" />
+      <point x="55.0" y="61.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.Subject" target="com.augtsy.pattern.observer.Observer" relationship="TO_MANY">
+      <point x="55.0" y="-61.0" />
+      <point x="679.5" y="75.0" />
+      <point x="570.0403846153847" y="75.0" />
+      <point x="67.33333333333331" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.ObserverTest" target="com.augtsy.pattern.observer.Observer" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.5" />
+      <point x="440.9858974358974" y="388.0" />
+      <point x="438.50000000000006" y="388.0" />
+      <point x="438.50000000000006" y="85.0" />
+      <point x="490.2346153846154" y="85.0" />
+      <point x="490.2346153846154" y="75.0" />
+      <point x="502.70705128205134" y="75.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.ObserverTest" target="com.augtsy.pattern.observer.ConcreteSubject" relationship="CREATE">
+      <point x="15.514102564102643" y="-27.5" />
+      <point x="-102.49999999999994" y="39.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.ConcreteObserver" target="com.augtsy.pattern.observer.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="101.0" y="85.0" />
+      <point x="214.1929487179487" y="85.0" />
+      <point x="214.1929487179487" y="75.0" />
+      <point x="435.373717948718" y="75.0" />
+      <point x="-67.33333333333331" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.Concrete2Observer" target="com.augtsy.pattern.observer.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="325.00000000000006" y="85.0" />
+      <point x="214.1929487179487" y="85.0" />
+      <point x="214.1929487179487" y="75.0" />
+      <point x="435.373717948718" y="75.0" />
+      <point x="-67.33333333333331" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.ObserverTest" target="com.augtsy.pattern.observer.ConcreteObserver" relationship="CREATE">
+      <point x="-65.60000000000002" y="-27.5" />
+      <point x="375.3858974358974" y="388.0" />
+      <point x="101.0" y="388.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.ObserverTest" target="com.augtsy.pattern.observer.Concrete2Observer" relationship="CREATE">
+      <point x="-32.799999999999955" y="-27.5" />
+      <point x="408.18589743589746" y="378.0" />
+      <point x="325.00000000000006" y="378.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.observer.Subject" target="com.augtsy.pattern.observer.Observer" relationship="DEPENDENCY">
+      <point x="-55.0" y="-61.0" />
+      <point x="569.5" y="85.0" />
+      <point x="490.2346153846154" y="85.0" />
+      <point x="490.2346153846154" y="75.0" />
+      <point x="502.70705128205134" y="75.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="367.5" y="232.0" />
+  <SelectedNodes>
+    <node>com.augtsy.pattern.observer.ConcreteSubject</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
