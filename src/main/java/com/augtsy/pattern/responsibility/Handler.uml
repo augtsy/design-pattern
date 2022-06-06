@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.augtsy.pattern.responsibility.Handler</OriginalElement>
+  <nodes>
+    <node x="0.0" y="105.0">com.augtsy.pattern.responsibility.AbstractHandler</node>
+    <node x="456.14814814814815" y="235.0">com.augtsy.pattern.responsibility.AuthHandler</node>
+    <node x="247.92901234567898" y="585.0">com.augtsy.pattern.responsibility.HandlerTest</node>
+    <node x="-14.5" y="235.0">com.augtsy.pattern.responsibility.ResponseHandler</node>
+    <node x="232.14814814814812" y="235.0">com.augtsy.pattern.responsibility.BusinessHandler</node>
+    <node x="58.98148148148147" y="0.0">com.augtsy.pattern.responsibility.Handler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.augtsy.pattern.responsibility.BusinessHandler" target="com.augtsy.pattern.responsibility.AbstractHandler" relationship="GENERALIZATION">
+      <point x="-1.4814814812780241E-4" y="-61.5" />
+      <point x="334.148" y="209.0" />
+      <point x="90.5" y="209.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.ResponseHandler" target="com.augtsy.pattern.responsibility.AbstractHandler" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.ResponseHandler" target="com.augtsy.pattern.responsibility.BusinessHandler" relationship="DEPENDENCY">
+      <point x="105.0" y="23.0" />
+      <point x="-102.00014814814816" y="23.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.AuthHandler" target="com.augtsy.pattern.responsibility.AbstractHandler" relationship="GENERALIZATION">
+      <point x="14.999851851851872" y="-61.5" />
+      <point x="560.148" y="209.0" />
+      <point x="90.5" y="209.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.HandlerTest" target="com.augtsy.pattern.responsibility.BusinessHandler" relationship="CREATE">
+      <point x="-82.00001234567898" y="0.0" />
+      <point x="214.0" y="624.0" />
+      <point x="214.0" y="319.5" />
+      <point x="-102.00014814814816" y="23.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.AbstractHandler" target="com.augtsy.pattern.responsibility.Handler" relationship="DEPENDENCY">
+      <point x="54.98148148148147" y="-39.0" />
+      <point x="15.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.AbstractHandler" target="com.augtsy.pattern.responsibility.Handler" relationship="TO_ONE">
+      <point x="39.98148148148147" y="-39.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.ResponseHandler" target="com.augtsy.pattern.responsibility.Handler" relationship="REALIZATION">
+      <point x="105.0" y="0.0" />
+      <point x="218.0" y="296.5" />
+      <point x="218.0" y="27.5" />
+      <point x="71.49951851851853" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.HandlerTest" target="com.augtsy.pattern.responsibility.AuthHandler" relationship="CREATE">
+      <point x="82.0" y="0.0" />
+      <point x="545.1481481481482" y="624.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.AuthHandler" target="com.augtsy.pattern.responsibility.Handler" relationship="REALIZATION">
+      <point x="-1.4814814812780241E-4" y="-61.5" />
+      <point x="545.148" y="179.0" />
+      <point x="218.0" y="179.0" />
+      <point x="218.0" y="27.5" />
+      <point x="71.49951851851853" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.HandlerTest" target="com.augtsy.pattern.responsibility.ResponseHandler" relationship="CREATE">
+      <point x="-82.0" y="15.0" />
+      <point x="90.5" y="639.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.responsibility.BusinessHandler" target="com.augtsy.pattern.responsibility.Handler" relationship="REALIZATION">
+      <point x="-102.00014814814816" y="0.0" />
+      <point x="218.0" y="296.5" />
+      <point x="218.0" y="27.5" />
+      <point x="71.49951851851853" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="317.5" y="331.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
