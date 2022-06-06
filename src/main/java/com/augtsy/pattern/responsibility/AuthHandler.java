@@ -12,7 +12,7 @@ public class AuthHandler extends AbstractHandler implements Handler {
 
     private final static Log logger = LogFactory.getLog(AuthHandler.class);
 
-    private String name;
+    private final String name;
 
     public AuthHandler(String name) {
         this.name = name;
