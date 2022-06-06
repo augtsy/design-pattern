@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.augtsy.pattern.decorator.DecoratorTest</OriginalElement>
+  <nodes>
+    <node x="230.83333333333331" y="235.0">com.augtsy.pattern.decorator.DecoratorTest</node>
+    <node x="0.0" y="105.0">com.augtsy.pattern.decorator.Decorator</node>
+    <node x="216.0" y="105.0">com.augtsy.pattern.decorator.Source</node>
+    <node x="215.6060606060606" y="0.0">com.augtsy.pattern.decorator.SourceAble</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.augtsy.pattern.decorator.DecoratorTest" target="com.augtsy.pattern.decorator.Source" relationship="CREATE">
+      <point x="-1.8333333333333144" y="-39.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.decorator.Decorator" target="com.augtsy.pattern.decorator.SourceAble" relationship="REALIZATION">
+      <point x="49.0" y="-39.0" />
+      <point x="147.0" y="85.0" />
+      <point x="310.60606060606057" y="85.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.decorator.DecoratorTest" target="com.augtsy.pattern.decorator.SourceAble" relationship="DEPENDENCY">
+      <point x="82.0" y="0.0" />
+      <point x="423.5" y="274.0" />
+      <point x="423.5" y="27.5" />
+      <point x="95.0" y="0.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.decorator.Decorator" target="com.augtsy.pattern.decorator.SourceAble" relationship="TO_ONE">
+      <point x="-49.0" y="-39.0" />
+      <point x="49.0" y="75.0" />
+      <point x="247.27272727272725" y="75.0" />
+      <point x="-63.33333333333334" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.decorator.Source" target="com.augtsy.pattern.decorator.SourceAble" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.decorator.DecoratorTest" target="com.augtsy.pattern.decorator.Decorator" relationship="CREATE">
+      <point x="-82.0" y="0.0" />
+      <point x="98.0" y="274.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="208.5" y="156.5" />
+  <SelectedNodes>
+    <node>com.augtsy.pattern.decorator.DecoratorTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

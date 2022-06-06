@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.augtsy.pattern.adapter.inteface.SourceSub2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="187.0">com.augtsy.pattern.adapter.inteface.SourceSub1</node>
+    <node x="165.0" y="187.0">com.augtsy.pattern.adapter.inteface.SourceSub2</node>
+    <node x="137.55357142857142" y="0.0">com.augtsy.pattern.adapter.inteface.SourceAble</node>
+    <node x="66.80357142857142" y="80.0">com.augtsy.pattern.adapter.inteface.AbstractAdapter</node>
+    <node x="120.85119047619045" y="294.0">com.augtsy.pattern.adapter.inteface.IntefaceAdapterTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.augtsy.pattern.adapter.inteface.IntefaceAdapterTest" target="com.augtsy.pattern.adapter.inteface.SourceSub1" relationship="CREATE">
+      <point x="-69.66666666666669" y="-27.5" />
+      <point x="155.68452380952377" y="268.0" />
+      <point x="72.5" y="268.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.adapter.inteface.IntefaceAdapterTest" target="com.augtsy.pattern.adapter.inteface.SourceAble" relationship="DEPENDENCY">
+      <point x="69.66666666666669" y="-27.5" />
+      <point x="295.0178571428571" y="268.0" />
+      <point x="331.25" y="268.0" />
+      <point x="331.25" y="55.0" />
+      <point x="244.05357142857142" y="55.0" />
+      <point x="35.5" y="15.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.adapter.inteface.IntefaceAdapterTest" target="com.augtsy.pattern.adapter.inteface.SourceSub2" relationship="CREATE">
+      <point x="13.148809523809547" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.adapter.inteface.AbstractAdapter" target="com.augtsy.pattern.adapter.inteface.SourceAble" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="157.80357142857142" y="55.0" />
+      <point x="173.05357142857142" y="55.0" />
+      <point x="-35.5" y="15.0" />
+    </edge>
+    <edge source="com.augtsy.pattern.adapter.inteface.SourceSub2" target="com.augtsy.pattern.adapter.inteface.AbstractAdapter" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="80.69642857142858" y="27.5" />
+    </edge>
+    <edge source="com.augtsy.pattern.adapter.inteface.SourceSub1" target="com.augtsy.pattern.adapter.inteface.AbstractAdapter" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="72.5" y="161.0" />
+      <point x="157.80357142857142" y="161.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="156.0" y="132.5" />
+  <SelectedNodes>
+    <node>com.augtsy.pattern.adapter.inteface.SourceSub2</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
