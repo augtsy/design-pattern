@@ -28,6 +28,7 @@ public abstract class AbstractTemplate {
 
     private void queueUp() {
         System.out.printf("dev merge master");
+        System.out.println("master merge dev");
         logger.info("排队。。。。。。");
     }
 
